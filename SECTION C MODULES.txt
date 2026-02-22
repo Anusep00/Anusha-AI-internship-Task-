@@ -1,0 +1,18 @@
+#SECTION C: MODULES
+def square(n):
+    return n * n
+
+def cube(n):
+    return n * n * n
+
+
+
+
+
+
+import operations
+
+num = int(input("Enter number: "))
+
+print("Square:", operations.square(num))
+print("Cube:", operations.cube(num))

@@ -1,0 +1,50 @@
+import random
+
+number = random.randint(1, 100)   # generate random number
+guess = 0
+
+print("Guess the number between 1 and 100")
+
+while guess != number:
+    guess = int(input("Enter your guess: "))
+
+    if guess < number:
+        print("Too Low!")
+    elif guess > number:
+        print("Too High!")
+    else:
+        print("Correct! You guessed the number.")
+
+
+import math
+
+num = int(input("Enter a number: "))
+
+# Square Root
+print("Square Root:", math.sqrt(num))
+
+# Power (num^2 example)
+print("Power (num^2):", math.pow(num, 2))
+
+# Factorial
+print("Factorial:", math.factorial(num))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
